@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Семейство шрифтов */
+    font-size: 16px; /* Размер основного шрифта */
+    background-color: #f7f9fc; /* Цвет фона веб-страницы */
+    color: #2c3e50; /* Цвет основного текста */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2980b9; /* Цвет заголовка */
+    font-size: 40px; /* Размер шрифта заголовка */
+    font-weight: 700; /* Жирность шрифта */
+    text-align: center; /* Выравнивание по центру */
+    margin-bottom: 20px; /* Нижний отступ */
+}
+
+h2, h3 {
+    color: #34495e; /* Цвет подзаголовков */
+    font-size: 28px; /* Размер шрифта подзаголовков */
+    font-weight: 700; /* Жирность шрифта */
+    margin-top: 30px; /* Верхний отступ */
+    margin-bottom: 20px; /* Нижний отступ */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background: #34495e;
+    color: #ecf0f1;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: #e74c3c 5px solid;
+}
+
+.content {
+    padding: 20px;
+    background: #ffffff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.content:hover {
+    transform: scale(1.02);
+}
+
+.tips {
+    background: #e74c3c;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.tips:hover {
+    transform: scale(1.02);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+    font-size: 18px; /* Размер шрифта пунктов списка */
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
